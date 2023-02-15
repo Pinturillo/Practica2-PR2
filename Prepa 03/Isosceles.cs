@@ -18,7 +18,7 @@ namespace Prepa_03
         public Isosceles(float height,
                         float bt,
                         float ladoa,
-                        float ladob) : base(7, "naranjita")
+                        float ladob) : base(7, 6, 5, "naranjita")
         {
             _ladoa = ladoa;
             _ladob = ladob;

@@ -36,7 +36,7 @@ namespace Prepa_03
             Equilatero equilatero = new Equilatero(5); //unicamente necesito saber un lado y el color lo especifico en la clase.
             Figura equilatera = equilatero;
 
-            Escaleno escaleno = new Escaleno(10, 10, 5, 6, 7); //triangulo escaleno - su color esta especificado en la clase.
+            Escaleno escaleno = new Escaleno(7, 6, 5, 4, 3); //triangulo escaleno - su color esta especificado en la clase.
             Figura escalena = escaleno;
 
             Isosceles isosceles = new Isosceles(10, 10, 15, 15);

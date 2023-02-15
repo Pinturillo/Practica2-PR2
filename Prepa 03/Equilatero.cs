@@ -10,7 +10,7 @@ namespace Prepa_03
     {
         private float _ladoa;
 
-        public Equilatero(float ladoa) : base(7, "verdecito")
+        public Equilatero(float ladoa) : base(7, 6, 5, "verdecito")
         {
             _ladoa = ladoa;
         }

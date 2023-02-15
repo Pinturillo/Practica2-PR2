@@ -12,11 +12,17 @@ namespace Prepa_03
     class Triangulo : Figura
     {
         private float _ladoa;
+        private float _height; //aunque no se usan, prefiero dejarlos especificados.
+        private float _bt;
 
         public Triangulo(float ladoa,
+                         float height,
+                         float bt,
                          string color) : base(color)
         {
             _ladoa = ladoa;
+            _height = height;
+            _bt = bt;
         }
 
         public override double GetArea()

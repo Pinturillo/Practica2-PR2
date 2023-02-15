@@ -19,11 +19,10 @@ namespace Prepa_03
                         float bt,
                         float ladoa,
                         float ladob,
-                        float ladoc) : base(7, "azulito")
-
+                        float ladoc) : base(7, 6, 5, "azulito")
         {
             _height = height;
-            _bt = bt; //bt stands for base del triangulo
+            _bt = bt;
             _ladoa = ladoa;
             _ladob = ladob;
             _ladoc = ladoc;

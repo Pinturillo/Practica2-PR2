@@ -1,0 +1,8 @@
+D:\Downloads\Prepa-03-master\Prepa 03\bin\Debug\Prepa 03.exe.config
+D:\Downloads\Prepa-03-master\Prepa 03\bin\Debug\Prepa 03.exe
+D:\Downloads\Prepa-03-master\Prepa 03\bin\Debug\Prepa 03.pdb
+D:\Downloads\Prepa-03-master\Prepa 03\obj\Debug\Prepa 03.csproj.AssemblyReference.cache
+D:\Downloads\Prepa-03-master\Prepa 03\obj\Debug\Prepa 03.csproj.SuggestedBindingRedirects.cache
+D:\Downloads\Prepa-03-master\Prepa 03\obj\Debug\Prepa 03.csproj.CoreCompileInputs.cache
+D:\Downloads\Prepa-03-master\Prepa 03\obj\Debug\Prepa 03.exe
+D:\Downloads\Prepa-03-master\Prepa 03\obj\Debug\Prepa 03.pdb

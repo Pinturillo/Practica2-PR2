@@ -11,28 +11,36 @@ namespace Prepa_03
 
     class Triangulo : Figura
     {
-        private float _ladoa;
-        private float _height; //aunque no se usan, prefiero dejarlos especificados.
-        private float _bt;
+        //implementacion de los atributos a heredar.
 
-        public Triangulo(float ladoa,
+        protected float _ladoa;
+        protected float _ladob;
+        protected float _ladoc;
+        protected float _height; 
+        protected float _bt;
+
+        public Triangulo(float ladoa, 
+                         float ladob,
+                         float ladoc,
                          float height,
                          float bt,
                          string color) : base(color)
         {
             _ladoa = ladoa;
+            _ladob = ladob;
+            _ladoc = ladoc;
             _height = height;
             _bt = bt;
         }
 
         public override double GetArea()
         {
-            return (Math.Sqrt(3) / 4) * Math.Pow(_ladoa, 2);
+            return (_bt * _height / 2); // el triangulo base es un triangulo equilatero.
         }
 
         public override double GetPerimetro()
         {
-            return _ladoa + _ladoa + _ladoa;
+            return _ladoa + _ladoa + _ladoa; // el triangulo base es un triangulo equilatero.
         }
 
         public override void MostrarDatos()

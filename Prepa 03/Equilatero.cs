@@ -8,11 +8,9 @@ namespace Prepa_03
 {
     internal class Equilatero : Triangulo
     {
-        private float _ladoa;
 
-        public Equilatero(float ladoa) : base(7, 6, 5, "verdecito")
+        public Equilatero() : base(5, 5, 5, 5, 5, "naranjita")
         {
-            _ladoa = ladoa;
         }
 
         public override double GetArea()

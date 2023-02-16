@@ -11,28 +11,19 @@ namespace Prepa_03
 
     internal class Isosceles : Triangulo
     {
-        private float _ladoa;
-        private float _ladob;
-        private float _height;
-        private float _bt;
-        public Isosceles(float height,
-                        float bt,
-                        float ladoa,
-                        float ladob) : base(7, 6, 5, "naranjita")
+        public Isosceles() : base(7, 6, 5, 4, 3, "naranjita")
         {
-            _ladoa = ladoa;
-            _ladob = ladob;
-            _height = height;
-            _bt = bt; //bt stands for base del triangulo
+
         }
+
         public override double GetArea()
         {
-            return ((_bt * _height) / 2); //bt stands for base del triangulo
+            return _bt * _height / 2; //bt stands for base del triangulo
         }
 
         public override double GetPerimetro()
         {
-            return ((2 * _ladoa) + _ladob);
+            return (2 * _ladoa) + _ladob;
         }
 
         public override void MostrarDatos()

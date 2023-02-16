@@ -29,17 +29,17 @@ namespace Prepa_03
             Console.ReadLine();
           
 
-            Triangulo triangulo = new Triangulo(5, "verde"); //triangulo base, con su respectiva base, altura, lado y color.
+            Triangulo triangulo = new Triangulo(5, "verde");
             Figura figura1 = triangulo;
             */
 
-            Equilatero equilatero = new Equilatero(5); //unicamente necesito saber un lado y el color lo especifico en la clase.
+            Equilatero equilatero = new Equilatero();
             Figura equilatera = equilatero;
 
-            Escaleno escaleno = new Escaleno(7, 6, 5, 4, 3); //triangulo escaleno - su color esta especificado en la clase.
+            Escaleno escaleno = new Escaleno();
             Figura escalena = escaleno;
 
-            Isosceles isosceles = new Isosceles(10, 10, 15, 15);
+            Isosceles isosceles = new Isosceles();
             Figura tIsosceles = isosceles;
 
             //figura1.MostrarDatos();

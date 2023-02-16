@@ -9,23 +9,8 @@ namespace Prepa_03
 {
     internal class Escaleno : Triangulo
     {
-        private float _ladoa;
-        private float _ladob;
-        private float _ladoc;
-        private float _height;
-        private float _bt; //base triangulo
-
-        public Escaleno(float height,
-                        float bt,
-                        float ladoa,
-                        float ladob,
-                        float ladoc) : base(7, 6, 5, "azulito")
+        public Escaleno() : base(7, 6, 5, 4, 3, "azulito")
         {
-            _height = height;
-            _bt = bt;
-            _ladoa = ladoa;
-            _ladob = ladob;
-            _ladoc = ladoc;
         }
 
         public override double GetArea()

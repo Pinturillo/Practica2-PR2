@@ -33,13 +33,13 @@ namespace Prepa_03
             Figura figura1 = triangulo;
             */
 
-            Equilatero equilatero = new Equilatero();
+            Triangulo equilatero = new Equilatero();
             Figura equilatera = equilatero;
 
-            Escaleno escaleno = new Escaleno();
+            Triangulo escaleno = new Escaleno();
             Figura escalena = escaleno;
 
-            Isosceles isosceles = new Isosceles();
+            Triangulo isosceles = new Isosceles();
             Figura tIsosceles = isosceles;
 
             //figura1.MostrarDatos();
